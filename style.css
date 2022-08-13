@@ -660,9 +660,6 @@ textarea {
    justify-content: center;
    align-items: center;
 }
-.and{
-    min-height: 70vh;
-}
 
 .map .embed {
     width: 100%;
@@ -683,6 +680,25 @@ textarea {
     padding-left: 30px;
 }
 #enhance {
+    padding-top: 0;
     box-shadow: none;
     width: 50%;
+}
+.contact-col {
+    padding: 2% 0 0 2%;
+}
+.contact-col div {
+    padding: 1% 0 1% 0;
+}
+@media screen and  (min-width : 880px) {
+    #enhanced {
+        width: 100% !important;
+    }
+    .inps, textarea {
+        height: 40px;
+        width: 60%;
+    }
+    textarea {
+        height: 100px !important;
+    }
 }
