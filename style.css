@@ -690,7 +690,7 @@ textarea {
 .contact-col div {
     padding: 1% 0 1% 0;
 }
-@media screen and  (min-width : 880px) {
+@media screen and  (max-width : 880px) {
     #enhanced {
         width: 100% !important;
     }
