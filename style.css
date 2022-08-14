@@ -227,6 +227,7 @@ html, body {
         z-index: 2;
         background: linear-gradient(rgba(10, 10, 93, 0.905), rgba(10, 10, 93, 0.675));
         padding-top: 10%;
+        overflow-y : disabled;
     }
 
     .navigation .fa {
