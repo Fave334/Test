@@ -184,6 +184,9 @@ html, body {
 }
 
 @media screen and (max-width : 950px) {
+    .leftNav {
+        padding-top: 19%;
+    }
     #open {
         transform: translate(0%, -19%);
     }
