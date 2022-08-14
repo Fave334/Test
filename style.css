@@ -184,7 +184,9 @@ html, body {
 }
 
 @media screen and (max-width : 950px) {
-
+    #open {
+        transform: translate(0%, -19%);
+    }
     #open,
     #close {
         display: block;
@@ -216,6 +218,7 @@ html, body {
         height: 100%;
         top: 0;
         width: 200px;
+        transform: translate(0%, 0%);
         right: -200px;
         text-align: center;
         z-index: 2;
