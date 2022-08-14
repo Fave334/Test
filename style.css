@@ -121,6 +121,7 @@ html, body {
 #close,
 #open {
     display: none;
+    font-size: 18px;
 }
 
 .fad {
