@@ -204,7 +204,7 @@ html, body {
         display: block;
         color: #fff;
     }
-
+    
     .nav-links {
         transition: 1s;
         position: fixed;
@@ -685,10 +685,17 @@ textarea {
     box-shadow: none;
     width: 50%;
 }
-.contact-col {
-    width: 100%;
+.tinker {
+    width: 80%;
     margin: auto;
-    padding: 2% 0 0 2%;
+    padding-top: 100px;
+}
+.contact-col {
+    width: 60%;
+    margin: auto;
+    transform: translate(0, -30%);
+    padding: 0% 0 0 2%;
+    
 }
 .contact-col div {
     padding: 1% 0 1% 0;
@@ -699,8 +706,18 @@ textarea {
 .cont-row .fa{
     padding-top: 10px;
 }
-@media screen and (max-width : 628.99999) {
-    
+@media screen and (max-width : 950px) {
+    .tinker {
+        width: 100%;
+        margin: auto;
+        padding-top: 100px;
+    }
+    .contact-col {
+        width: 100%;
+        margin: auto;
+        transform: translate(0, 0%);
+        padding: 0% 0 0 2%;
+    }
 }
 @media screen and  (max-width : 880px) {
     #enhanced {
