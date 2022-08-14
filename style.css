@@ -33,7 +33,7 @@ html, body {
 }
 
 .leftNav {
-    display: inline-block;
+    display: flex;
 }
 
 .intro {
@@ -110,8 +110,11 @@ html, body {
     color: #fff;
 }
 
-.navigation .fa {
+.navigation img {
+    border-radius: 50%;
+    width: 50px;
     cursor: pointer;
+    transform: translate(-10%, -20%);
 }
 
 #close,
