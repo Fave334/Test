@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
@@ -120,9 +121,7 @@ html, body {
 
 #close,
 #open {
-    cursor: pointer !important;
     display: none;
-    font-size: 20px !important;
 }
 
 .fad {
@@ -189,9 +188,11 @@ html, body {
     .leftNav {
         padding-top: 10%;
     }
+
     #open {
         transform: translate(0%, -15%);
     }
+
     #open,
     #close {
         display: block;
@@ -215,7 +216,7 @@ html, body {
         display: block;
         color: #fff;
     }
-    
+
     .nav-links {
         transition: 1s;
         position: fixed;
@@ -324,16 +325,34 @@ html, body {
     text-align: left;
 }
 
-.facilities-col img,
-.facilities-col video {
+.facilities-col img {
     height: 50%;
     width: 100%;
-    border-radius: 10px;
+}
+
+.videoWrapper #vid {
+    width: 100%;
+    height: 100%;
 }
 
 .row {
     display: flex;
     height: fit-content !important;
+}
+
+#flexBase {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+#redu {
+    margin: 10px 0 0 0;
+}
+
+#spac {
+    width: 100%;
+    height: 700px;
 }
 
 .testimonials {
@@ -587,31 +606,29 @@ about page
     }
 }
 
-.facilitiesS {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-#p {
-   text-align: justify;
-}
+
 
 .commentSection h3 {
     padding: 0 0 15px 0;
 }
+
 @media screen and (max-width : 800px) {
     .commentSection {
         width: 100% !important;
     }
-    .inps, textarea {
+
+    .inps,
+    textarea {
         height: 40px;
         width: 80%;
     }
+
     textarea {
         height: 100px !important;
     }
 }
+
 .inps {
     font-family: 'Poppins', sans-serif;
     display: block;
@@ -626,6 +643,7 @@ about page
     font-size: 17px;
     padding-left: 20px;
 }
+
 textarea {
     font-family: 'Poppins', sans-serif;
     display: block;
@@ -641,6 +659,7 @@ textarea {
     padding: 20px 0 0 20px;
     resize: none !important;
 }
+
 .more {
     font-family: 'Poppins';
     font-size: 17px;
@@ -648,36 +667,42 @@ textarea {
     margin: 0 0 3% 3%;
 }
 
-.commentSection  {
+.commentSection {
     padding: 2%;
-    box-shadow: 0 0  10px #6f6e64;
+    box-shadow: 0 0 10px #6f6e64;
     width: 60%;
     border-radius: 3px;
     margin: auto;
 }
+
 #cont {
     font-size: 20px;
 }
+
 .plus {
     width: 70%;
 }
+
 #Name {
     padding: 1% 0 1% 0;
 }
+
 #Comnt {
     padding: 0% 0 1% 0;
 }
+
 .recieve {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .map .embed {
     width: 100%;
     margin: auto;
 }
+
 .map {
     width: 80%;
     margin: auto;
@@ -686,44 +711,54 @@ textarea {
     align-items: center;
     padding: 100px 0 0 0;
 }
-.cont-row div{
+
+.cont-row div {
     display: inline-block;
 }
-.cont-row .txt{
+
+.cont-row .txt {
     padding-left: 30px;
 }
+
 #enhance {
     padding-top: 0;
     box-shadow: none;
     width: 50%;
 }
+
 .tinker {
     width: 80%;
     margin: auto;
     padding-top: 100px;
 }
+
 .contact-col {
     width: 60%;
     margin: auto;
     transform: translate(0, -30%);
     padding: 0% 0 0 2%;
-    
+
 }
+
 .contact-col div {
     padding: 1% 0 1% 0;
 }
+
 .cont-row {
     display: flex;
 }
-.cont-row .fa{
+
+.cont-row .fa {
     padding-top: 10px;
 }
+
 @media screen and (max-width : 950px) {
     .tinker {
         width: 100%;
         margin: auto;
         padding-top: 100px;
     }
+
     .contact-col {
         width: 100%;
         margin: auto;
@@ -731,14 +766,18 @@ textarea {
         padding: 0% 0 0 2%;
     }
 }
-@media screen and  (max-width : 880px) {
+
+@media screen and (max-width : 880px) {
     #enhanced {
         width: 100% !important;
     }
-    .inps, textarea {
+
+    .inps,
+    textarea {
         height: 40px;
         width: 60%;
     }
+
     textarea {
         height: 100px !important;
     }

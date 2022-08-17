@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Maidik Schools - Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="specStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/regular.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/regular.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="SourceSansPro-Black.ttf">
+    <link rel="stylesheet" href="SourceSansPro-BlackItalic.ttf">
+    <link rel="stylesheet" href="SourceSansPros-BoldItalic.ttf">
+    <link rel="stylesheet" href="SourceSansPro-ExtraBold.ttf">
+    <link rel="stylesheet" href="SourceSansPro-ExtraBoldItalic.ttf">
+    <link rel="stylesheet" href="SourceSansPro-ExtraLight.ttf">
+    <link rel="stylesheet" href="SourceSansPro-ExtraLightItalic.ttf">
+    <link rel="stylesheet" href="SourceSansPro-Italic.ttf">
+    <script src="jquery-3.1.1.js"></script>
+    <script src="java.js"></script>
+</head>
+<script>
+    window.onload = function () {
+        var form = document.getElementById("form");
+        form.onsubmit = function () {
+            var i1, i2, i3, i4, i5, i6;
+            i1 = document.getElementById("i1");
+            i2 = document.getElementById("i2");
+            i3 = document.getElementById("i3");
+            i4 = document.getElementById("i4");
+            i5 = document.getElementById("i5");
+            i6 = document.getElementById("i6");
+            if (i1.value != "" && i2.value != "" && i3.value != "" && i4.value != "" && i5.value != "" && i6.value != "" ) {
+                alert("nice filling");
+                return true;
+            }
+            alert("please fill");
+            return false;
+        }
+    }
+</script>
+
+<body id="body">
+    <style>
+        #body {
+            background: #f9fafb;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+    <form id="form" action="https://formsubmit.co/favourejiofor009@gmail.com" method="POST">
+        <div class="row jointRow">
+            <div class="signUp-col">
+                <input type="hidden" value="https://maidiktest.netlify.app/thankyou.html" name="_next">
+                <input type="hidden" name="_subject" value="Contact Message - Maidik School">
+                <p>Gain Admmision - Madik Schools</p>
+                <div class="pname gen">
+                    <label for="pname">
+                        <input type="text" placeholder="Parent's Name(s)" class="inp" value="" name="Parent's Name" id="i1">
+                        <div class="in">
+                            <i class="fa fa-pencil"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="email gen">
+                    <label for="email">
+                        <input type="email" placeholder="Email" value="" class="inp" name="Email" id="i2">
+                        <div class="in">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="sname gen">
+                    <label for="sname">
+                        <input type="text" placeholder="Student's Name" class="inp" value="" name="Student's Name" id="i3">
+                        <div class="in">
+                            <i class="fa fa-pencil"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="city gen">
+                    <label for="pNum">
+                        <input type="tel" name="pNum" class="inp"  value="" id="" placeholder="Phone Number">
+                        <div class="in">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                    </label>
+                </div>
+                <p style="margin-top: 10px;">Student's Gender</p>
+                <div class="sgend gen">
+                    <label for="sgend">
+                        <p style="display: inline-block;">Male</p>
+                        <input type="radio" name="Gender" value="Female" id="">
+                        <div class="in">
+                            <i class="fa fa-person"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="sgend gen">
+                    <label for="sgend">
+                        <p style="display: inline-block;">Female</p>
+                        <input type="radio" name="Gender"  value="Female" id="">
+                        <div class="in">
+                            <i class="fa fa-person-dress"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="sbDay gen">
+                    <label for="sgbDay">
+                        <p style="display: inline-block;">DOB</p>
+                        <input type="date" name="dob"  value="" id="i4">
+                        <div class="in">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="address gen">
+                    <label for="sgbDay">
+                        <input type="text" name="Address" class="inp"  value="" id="i5" placeholder="Address">
+                        <div class="in">
+                            <i class="fa fa-home"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="city gen">
+                    <label for="city">
+                        <input type="text" name="City" class="inp"  value="" id="i6" placeholder=City">
+                        <div class="in">
+                            <i class="fa fa-building"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="btn">
+                    <button type="submit" class="sub">Send Now</button>
+                    <button type="reset" class="sub">Reset Form</button>
+                </div>
+                <p style="margin-top: 10px;" class="ip">We will book an appointment and get to you shortly. Check your
+                    email for new updates and school fee information. Thank You.</p>
+            </div>
+            <div class="fine-Col">
+                <img src="Images/logo.jpg" alt="">
+                <p>Maidik Schools</p>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
